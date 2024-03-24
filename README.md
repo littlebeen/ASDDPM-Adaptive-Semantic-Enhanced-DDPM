@@ -34,7 +34,7 @@ The experimental datasets, OLI2MSI and Alsat, could be obtained from:
 
 **Weight**
 
-Change the github branch to 'weight' and download.
+Download from link：[https://pan.baidu.com/s/1SnBUSN9p-2blyfIeSCIHIw](https://pan.baidu.com/s/1SnBUSN9p-2blyfIeSCIHIw)  code：bean
 
 # Cite
 
