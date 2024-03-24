@@ -1,0 +1,9 @@
+__pycache__
+checkpoints/
+binary/
+image/
+*.out
+log*
+*.pt
+*.ckpt
+*.tif
