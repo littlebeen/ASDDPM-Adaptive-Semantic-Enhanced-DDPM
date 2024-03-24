@@ -155,7 +155,7 @@ parser.add_argument('--use_rrdb', type=bool, default=True)
 parser.add_argument('--lr_encoder', type=str, default='rrdb3') # lr_encoder OLI2MSI:rrdb3, Alsat: rrdb4
 parser.add_argument('--diff_type', type=str, default='diff')
 
-parser.add_argument('--diffusion_net', type=str, default='unet')   #unet dit unetdual unetdualfusion
+parser.add_argument('--diffusion_net', type=str, default='unet')   #SRDiff:unet Dit:dit ASDDPM:unetdualfusion
 
 args = parser.parse_args()
 
