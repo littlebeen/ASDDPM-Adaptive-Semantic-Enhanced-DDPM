@@ -1,5 +1,5 @@
 # ASDDPM-Adaptive-Semantic-Enhanced-DDPM
-The code for [Adaptive Semantic-Enhanced Denoising Diffusion Probabilistic Model for Remote Sensing Image Super-Resolution](https://arxiv.org/abs/2403.11078)
+The code for [Adaptive Semantic-Enhanced Denoising Diffusion Probabilistic Model for Remote Sensing Image Super-Resolution](https://arxiv.org/abs/2403.11078), the other models shown in the experiments could be refered to [https://github.com/littlebeen/Remote-Sensing-Super-resolution-Model-Collection](https://github.com/littlebeen/Remote-Sensing-Super-resolution-Model-Collection).
 
 **Models**
 
