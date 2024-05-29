@@ -21,7 +21,8 @@ The experimental datasets, OLI2MSI and Alsat, could be obtained from:
 
 **Train**
 
-1. Change the model name and data information in the option.py
+1. Download the RRDB pre-train model from link and put it into the right place (./models/LREncoder/) according to the guidance in this link. [https://pan.baidu.com/s/1siWepPn2pVFC3SGyk1wuJg](https://pan.baidu.com/s/1siWepPn2pVFC3SGyk1wuJg)  code：bean 
+2. Change the model name and data information in the option.py
 
 ```python src/main.py ```
 
@@ -34,7 +35,9 @@ The experimental datasets, OLI2MSI and Alsat, could be obtained from:
 
 **Weight**
 
-Our pre-train model on OLI2MSI and ALSAT could be download from link：[https://pan.baidu.com/s/1siWepPn2pVFC3SGyk1wuJg](https://pan.baidu.com/s/1siWepPn2pVFC3SGyk1wuJg)  code：bean
+Our pre-train ASDDPM and RRDB model on OLI2MSI and ALSAT could be downloaded from link：[https://pan.baidu.com/s/1siWepPn2pVFC3SGyk1wuJg](https://pan.baidu.com/s/1siWepPn2pVFC3SGyk1wuJg)  code：bean
+
+A guidance file is also shared in this link, please put the pre-train model to the right place according to the guidance. (Attention: the code could run only after the RRDB pre-train model is put in the right place.)
 
 
 # Cite
