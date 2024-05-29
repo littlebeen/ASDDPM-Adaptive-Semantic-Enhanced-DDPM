@@ -1,0 +1,1 @@
+replace this file with the pretrained ASDDPM model which could be download from https://pan.baidu.com/s/1siWepPn2pVFC3SGyk1wuJg code：bean
