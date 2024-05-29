@@ -34,7 +34,8 @@ The experimental datasets, OLI2MSI and Alsat, could be obtained from:
 
 **Weight**
 
-Our pre-train model on OLI2MSI and ALSAT could be download from link：[https://pan.baidu.com/s/1SnBUSN9p-2blyfIeSCIHIw](https://pan.baidu.com/s/1SnBUSN9p-2blyfIeSCIHIw)  code：bean
+Our pre-train model on OLI2MSI and ALSAT could be download from link：[https://pan.baidu.com/s/1siWepPn2pVFC3SGyk1wuJg](https://pan.baidu.com/s/1siWepPn2pVFC3SGyk1wuJg)  code：bean
+
 
 # Cite
 
