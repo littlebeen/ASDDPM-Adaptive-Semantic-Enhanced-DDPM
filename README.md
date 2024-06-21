@@ -56,5 +56,16 @@ A guidance file is also shared in this link, please put the pre-train model to t
   year={2023},
   publisher={IEEE}
 }
+@article{sui2024denoising,
+  title={Denoising Diffusion Probabilistic Model with Adversarial Learning for Remote Sensing Super-Resolution},
+  author={Sui, Jialu and Wu, Qianqian and Pun, Man-On},
+  journal={Remote Sensing},
+  volume={16},
+  number={7},
+  pages={1219},
+  year={2024},
+  publisher={MDPI}
+}
+
 ```
 Be free to create a issue if you have any questions! I will reply as soon as possible!
