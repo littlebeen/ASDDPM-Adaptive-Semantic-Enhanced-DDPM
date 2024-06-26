@@ -559,8 +559,14 @@ class UnetDualFusion(nn.Module):
                 b1,b2=self.trans[i]
                 x2 = b1(x2,t)
                 x2 = b2(x2,res[2-i])
-  
+            if(i==2):
+                x2=self.trans[3](x2)
+                
             x3= self.adds[i](x2,x)
+            if(i!=2):
+                x = (x+x3)/2
+                x2= (x3+x2)/2
+  
        
         x = self.final_conv(x3)
         return x   #3 128 128
