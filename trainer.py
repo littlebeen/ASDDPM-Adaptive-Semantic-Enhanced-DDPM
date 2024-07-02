@@ -8,7 +8,6 @@ import numpy as np
 from utils.utils import plot_img, move_to_cuda, load_checkpoint, save_checkpoint, tensors_to_scalars, load_ckpt, Measure
 from data import Data
 from option import args
-from utils.zmerge import save_all
 from torch.utils.data import dataloader
 os.environ["CUDA_VISIBLE_DEVICES"] = "0"
 
@@ -121,8 +120,6 @@ class Trainer:
                         save_image(f'{filename[0]}_SR',plot_img(img[0]),training_step,path)
             for k in self.metric_keys:
                 metrics[k]+=ret[k]
-        if(not self.first_val and index>2000):
-                save_all(self.work_dir+"/image/"+str(training_step)+'/all.tif',all_image, id=40)
         if hparams['infer']:
             print('Val results:', metrics)
         else:
