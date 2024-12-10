@@ -1,7 +1,7 @@
 # ASDDPM-Adaptive-Semantic-Enhanced-DDPM
 🔥 This paper is accepted by IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing. While, it's my second jstar and takes me more than one year from completion to acceptance. I feel quite tired and relieved. Whatever, congradualations.
 
-The code for [Adaptive Semantic-Enhanced Denoising Diffusion Probabilistic Model for Remote Sensing Image Super-Resolution](https://arxiv.org/abs/2403.11078), the other models shown in the experiments could be refered to [Remote-Sensing-Super-resolution-Model-Collection](https://github.com/littlebeen/Remote-Sensing-Super-resolution-Model-Collection).
+The code for [Adaptive Semantic-Enhanced Denoising Diffusion Probabilistic Model for Remote Sensing Image Super-Resolution](https://ieeexplore.ieee.org/abstract/document/10763472), the other models shown in the experiments could be refered to [Remote-Sensing-Super-resolution-Model-Collection](https://github.com/littlebeen/Remote-Sensing-Super-resolution-Model-Collection).
 
 **Models**
 
