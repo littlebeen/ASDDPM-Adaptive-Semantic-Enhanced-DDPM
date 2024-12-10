@@ -45,11 +45,13 @@ A guidance file is also shared in this link, please put the pre-train model to t
 # Cite
 
 ```
-@article{sui2024adaptive,
-  title={Adaptive Semantic-Enhanced Denoising Diffusion Probabilistic Model for Remote Sensing Image Super-Resolution},
-  author={Sui, Jialu and Ma, Xianping and Zhang, Xiaokang and Pun, Man-On},
-  journal={arXiv preprint arXiv:2403.11078},
-  year={2024}
+@ARTICLE{10763472,
+  author={Sui, Jialu and Ma, Xianping and Zhang, Xiaokang and Pun, Man-On and Wu, Hao},
+  journal={IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing}, 
+  title={Adaptive Semantic-Enhanced Denoising Diffusion Probabilistic Model for Remote Sensing Image Super-Resolution}, 
+  year={2025},
+  volume={18},
+  pages={892-906},
 }
 @article{sui2023gcrdn,
   title={Gcrdn: Global context-driven residual dense network for remote sensing image super-resolution},
