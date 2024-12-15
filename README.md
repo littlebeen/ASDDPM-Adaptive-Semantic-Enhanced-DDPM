@@ -72,4 +72,4 @@ A guidance file is also shared in this link, please put the pre-train model to t
 }
 
 ```
-Be free to create a issue if you have any questions! I will reply as soon as possible!
+Be free to create a issue if you have any questions! Sometimes I could not answer the questions on time. But I promise I will response to all the issues when I am free.
