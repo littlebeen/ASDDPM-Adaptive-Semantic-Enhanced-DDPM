@@ -504,9 +504,7 @@ class UnetDualFusion(nn.Module):
             self.b2,
             self.p1,
         ]))
-        self.trans.append(nn.ModuleList([
-            self.final_convtrans
-        ]))
+        self.trans.append(self.final_convtrans)
 
     def apply_weight_norm(self):
         def _apply_weight_norm(m):
