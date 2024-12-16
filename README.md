@@ -1,4 +1,8 @@
 # ASDDPM-Adaptive-Semantic-Enhanced-DDPM
+
+Since many people pay attention this project, I have totally updated this project to fertilize easy test. Please follow run.sh to train and test this model. Thanks for your attention. And I have also upload my processed datasets on OLI2MSI and ALSAT.
+
+
 🔥 This paper is accepted by IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing. While, it's my second jstar which takes me more than one year from completion to acceptance. I feel quite exhausted. Whatever, congradualations.
 
 The code for [Adaptive Semantic-Enhanced Denoising Diffusion Probabilistic Model for Remote Sensing Image Super-Resolution](https://ieeexplore.ieee.org/abstract/document/10763472), the other models shown in the experiments could be refered to [Remote-Sensing-Super-resolution-Model-Collection](https://github.com/littlebeen/Remote-Sensing-Super-resolution-Model-Collection).
@@ -13,12 +17,13 @@ The code for [Adaptive Semantic-Enhanced Denoising Diffusion Probabilistic Model
 
 **Dataset**
 
-The experimental datasets, OLI2MSI and Alsat, could be obtained from:
+The experimental datasets, OLI2MSI and Alsat, their official version could be obtained from:
 
 * [OLI2MSI](https://github.com/wjwjww/OLI2MSI)
 
 * [Alsat](https://github.com/achrafdjerida/Alsat-2B)
 
+I have make few manipulation on them, the processed datasets could be download at [https://pan.baidu.com/s/1l2CXgEJGVBGcOonUBnOLfg](https://pan.baidu.com/s/1l2CXgEJGVBGcOonUBnOLfg) code bean. Put them into ./dataset like the demos.
 # Usage
 
 **Train**
