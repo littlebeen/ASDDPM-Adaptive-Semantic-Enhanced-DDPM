@@ -35,22 +35,22 @@ class SRDiffTrainer(Trainer):
                 rrdb = RRDBNet4(3, 3, hparams['rrdb_num_feat'], hparams['rrdb_num_block'],
                           hparams['rrdb_num_feat'] // 2)
                 print('rrdb4 is load')
-                rrdb.load_state_dict(torch.load('./models/LREncoder/pretrain/RRDB/model_best4.pt'),strict=False)
+                rrdb.load_state_dict(torch.load('./models/LREncoder/pretrain/model_best4.pt'),strict=False)
             if(hparams['lr_encoder']=='rrdb4v'):
                 rrdb = RRDBNet4(3, 3, hparams['rrdb_num_feat'], hparams['rrdb_num_block'],
                           hparams['rrdb_num_feat'] // 2)
                 print('rrdb4v is load')
-                rrdb.load_state_dict(torch.load('./models/LREncoder/pretrain/RRDB/model_best4v.pt'),strict=False)
+                rrdb.load_state_dict(torch.load('./models/LREncoder/pretrain/model_best4v.pt'),strict=False)
             if(hparams['lr_encoder']=='rrdb3'):
                 rrdb = RRDBNet3(3, 3, hparams['rrdb_num_feat'], hparams['rrdb_num_block'],
                           hparams['rrdb_num_feat'] // 2)
                 print('rrdb3 is load')
-                rrdb.load_state_dict(torch.load('./models/LREncoder/pretrain/RRDB/model_best3.pt'),strict=False)
+                rrdb.load_state_dict(torch.load('./models/LREncoder/pretrain/model_best3.pt'),strict=False)
             if(hparams['lr_encoder']=='rrdb4p'):
                 rrdb = RRDBNet4(3, 3, hparams['rrdb_num_feat'], hparams['rrdb_num_block'],
                           hparams['rrdb_num_feat'] // 2)
                 print('rrdb4p is load')
-                rrdb.load_state_dict(torch.load('./models/LREncoder/pretrain/RRDB/model_best4p.pt'),strict=False)
+                rrdb.load_state_dict(torch.load('./models/LREncoder/pretrain/model_best4p.pt'),strict=False)
 
             print('Lr encoder total params: %.2fM' % (sum(p.numel() for p in rrdb.parameters())/1000000.0))
         else:

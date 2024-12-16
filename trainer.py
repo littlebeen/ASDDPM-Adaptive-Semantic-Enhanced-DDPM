@@ -92,10 +92,6 @@ class Trainer:
         for index,(batch,filename) in enumerate(val_dataloader):
             if self.first_val and index > hparams['num_sanity_val_steps']:
                 break
-            if(index%10==0):
-                print(index)
-            if(index>10):
-                break
             batch = move_to_cuda(batch)
             img, rrdb_out, ret = self.sample_and_test(batch,filename[0].split('_')[0], index)
             img_hr = batch['img_hr']
@@ -125,7 +121,7 @@ class Trainer:
         else:
             if not self.first_val:
                 print('Val results:')
-                print('fid:'+str(round(self.measure.all_fid(),5)))
+                #print('fid:'+str(round(self.measure.all_fid(),5)))
                 for k in self.metric_keys:
                     if(k in ['all_psnr','all_ssim','all_lpips']):
                         print(k+':'+str(round(metrics[k]/(index+1),5)))

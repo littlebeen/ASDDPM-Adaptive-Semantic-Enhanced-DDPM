@@ -18,10 +18,8 @@ parser.add_argument('--seed', type=int, default=1,
                     help='random seed')
 parser.add_argument('--local_rank',type=int, default=0)
 # Data specifications
-parser.add_argument('--dir_data', type=str, default='../data',  # data folder
+parser.add_argument('--dir_data', type=str, default='./dataset',  # data folder
                     help='dataset directory')
-parser.add_argument('--dir_demo', type=str, default='../Demo',
-                    help='demo image directory')
 parser.add_argument('--data_train', type=str, default='OLI2MSI',  #OLI2MSI ALSAT
                     help='train dataset name')
 parser.add_argument('--data_train_dir', type=str, default='OLI2MSI',  #OLI2MSI ALSAT
@@ -49,8 +47,6 @@ parser.add_argument('--no_augment', action='store_true',
 
 # Model specifications
 parser.add_argument('--model', default='mae', 
-                    help='model name')
-parser.add_argument('--discriminator', default='discriminator_vgg_128',
                     help='model name')
 
 
@@ -155,7 +151,7 @@ parser.add_argument('--use_rrdb', type=bool, default=True)
 parser.add_argument('--lr_encoder', type=str, default='rrdb3') # lr_encoder OLI2MSI:rrdb3, Alsat: rrdb4
 parser.add_argument('--diff_type', type=str, default='diff')
 
-parser.add_argument('--diffusion_net', type=str, default='unet')   #SRDiff:unet Dit:dit ASDDPM:unetdualfusion
+parser.add_argument('--diffusion_net', type=str, default='unetdualfusion')   #SRDiff:unet Dit:dit ASDDPM:unetdualfusion
 
 args = parser.parse_args()
 

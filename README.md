@@ -1,5 +1,5 @@
 # ASDDPM-Adaptive-Semantic-Enhanced-DDPM
-🔥 This paper is accepted by IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing. While, it's my second jstar and takes me more than one year from completion to acceptance. I feel quite tired and relieved. Whatever, congradualations.
+🔥 This paper is accepted by IEEE Journal of Selected Topics in Applied Earth Observations and Remote Sensing. While, it's my second jstar which takes me more than one year from completion to acceptance. I feel quite exhausted. Whatever, congradualations.
 
 The code for [Adaptive Semantic-Enhanced Denoising Diffusion Probabilistic Model for Remote Sensing Image Super-Resolution](https://ieeexplore.ieee.org/abstract/document/10763472), the other models shown in the experiments could be refered to [Remote-Sensing-Super-resolution-Model-Collection](https://github.com/littlebeen/Remote-Sensing-Super-resolution-Model-Collection).
 
@@ -24,9 +24,9 @@ The experimental datasets, OLI2MSI and Alsat, could be obtained from:
 **Train**
 
 1. Download the RRDB pre-train model from link and put it into the right place (./models/LREncoder/) according to the guidance in this link. [https://pan.baidu.com/s/1siWepPn2pVFC3SGyk1wuJg](https://pan.baidu.com/s/1siWepPn2pVFC3SGyk1wuJg)  code：bean 
-2. Change the model name and data information in the option.py
+2. Change the model name and data information in the option.py. More information could be obtained from run.sh
 
-```python src/main.py ```
+```python trainer.py ```
 
 **Test**
 
