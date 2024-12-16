@@ -23,7 +23,7 @@ The experimental datasets, OLI2MSI and Alsat, their official version could be ob
 
 * [Alsat](https://github.com/achrafdjerida/Alsat-2B)
 
-I have make few manipulation on them, the processed datasets could be download at [https://pan.baidu.com/s/1l2CXgEJGVBGcOonUBnOLfg](https://pan.baidu.com/s/1l2CXgEJGVBGcOonUBnOLfg) code bean. Put them into ./dataset like the demos.
+I make few manipulation based on them. The processed datasets could be downloaded at [https://pan.baidu.com/s/1l2CXgEJGVBGcOonUBnOLfg](https://pan.baidu.com/s/1l2CXgEJGVBGcOonUBnOLfg) code bean. Put them into ./dataset like the demos.
 
 # Usage
 
