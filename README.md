@@ -43,7 +43,7 @@ I make few manipulation based on them. The processed datasets could be downloade
 
 **Weight**
 
-Our pre-train ASDDPM and RRDB model on OLI2MSI and ALSAT could be downloaded from link：[https://pan.baidu.com/s/1siWepPn2pVFC3SGyk1wuJg](https://pan.baidu.com/s/1siWepPn2pVFC3SGyk1wuJg)  code：bean
+Our pre-train ASDDPM and RRDB model on OLI2MSI and ALSAT could be downloaded from link：[https://pan.baidu.com/s/1siWepPn2pVFC3SGyk1wuJg](https://pan.baidu.com/s/1siWepPn2pVFC3SGyk1wuJg)  code：bean or huggingface [https://huggingface.co/littlebeen/ASDDPM/tree/main](https://huggingface.co/littlebeen/ASDDPM/tree/main)
 
 A guidance file is also shared in this link, please put the pre-train model to the right place according to the guidance. (Attention: the code could run only after the RRDB pre-train model is put in the right place.)
 
