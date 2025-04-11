@@ -132,7 +132,7 @@ def get_last_checkpoint(work_dir, steps=None):
 
 def get_all_ckpts(work_dir, steps=None):
     if steps is None:
-        ckpt_path_pattern = f'{work_dir}/model_ckpt_steps_*.ckpt'
+        ckpt_path_pattern = f'{work_dir}/*.ckpt'
     else:
         ckpt_path_pattern = f'{work_dir}/model_ckpt_steps_{steps}.ckpt'
     return sorted(glob.glob(ckpt_path_pattern),
