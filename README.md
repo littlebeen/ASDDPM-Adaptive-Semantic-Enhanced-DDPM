@@ -29,7 +29,7 @@ I make few manipulation based on them. The processed datasets could be downloade
 
 **Data preprocess**
 
-I have uploaded some image examples in ./dataset/OLI2MSI and ./dataset/Alsat. You can download the whole dataset and put all images like this form.
+I have uploaded some image examples in ./dataset/OLI2MSI and ./dataset/ALSAT. You can download the whole dataset and put all images like this form.
 
 **Train**
 
