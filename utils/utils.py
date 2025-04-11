@@ -153,9 +153,11 @@ def load_checkpoint(model, optimizer, work_dir):
         training_step = checkpoint['global_step']
         del checkpoint
         torch.cuda.empty_cache()
+        print('Load success')
     else:
         training_step = 0
         model.cuda()
+        print('Load fail')
     return training_step
 
 
