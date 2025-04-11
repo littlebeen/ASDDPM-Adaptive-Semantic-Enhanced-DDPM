@@ -27,6 +27,10 @@ I make few manipulation based on them. The processed datasets could be downloade
 
 # Usage
 
+**Data preprocess**
+
+I have uploaded some image examples in ./data/OLI2MSI and ./data/Alsat. You can download the whole dataset and put all images like this form.
+
 **Train**
 
 1. Download the RRDB pre-train model from link and put it into the right place (./models/LREncoder/) according to the guidance in this link. [https://pan.baidu.com/s/1siWepPn2pVFC3SGyk1wuJg](https://pan.baidu.com/s/1siWepPn2pVFC3SGyk1wuJg)  code：bean 
